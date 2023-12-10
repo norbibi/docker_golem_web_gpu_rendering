@@ -4,7 +4,7 @@ services:
     build:
       dockerfile: Dockerfile_golem_requestor
       context: .
-    image: maugnorbert/golem_requestor:0.12.3
+    image: maugnorbert/golem_requestor:0.14.0
     volumes:
       - yagna-bin:/yagna/bin
       - /home/${USER}/.local/share/yagna:/root/.local/share/yagna
